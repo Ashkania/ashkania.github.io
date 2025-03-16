@@ -5,33 +5,40 @@ h1 {
 }
 
 p {
-    color: red;
+    /* color: red;
     margin-bottom: 16px;
-    font-size: 16px;
+    font-size: 16px; */
+    line-height: 150%;
 }
 
-.text {
+/* .text {
     color: green;
     margin-bottom: 8px;
     font-size: 12px;
-}
+} */
 
-.test {
+/* .test {
     background-color: hsl(300, 100%, 25%);
     opacity: 50%;
-}
+} */
 
-#orange {
+/* #orange {
     color: orange;
-}
+} */
 
 main {
     background-color: #f0f0f0;
     padding: 20px;
 }
 
-a {
+/* a {
     color: cyan;
     text-decoration: none;
     border: 1px solid currentColor;
+} */
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Ununtu, sans-serif;
+    color: #002244
 }
