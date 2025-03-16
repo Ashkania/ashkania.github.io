@@ -1,0 +1,37 @@
+h1 {
+    color: blue;
+    margin-bottom: 24px;
+    font-size: 24px;
+}
+
+p {
+    color: red;
+    margin-bottom: 16px;
+    font-size: 16px;
+}
+
+.text {
+    color: green;
+    margin-bottom: 8px;
+    font-size: 12px;
+}
+
+.test {
+    background-color: hsl(300, 100%, 25%);
+    opacity: 50%;
+}
+
+#orange {
+    color: orange;
+}
+
+main {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+a {
+    color: cyan;
+    text-decoration: none;
+    border: 1px solid currentColor;
+}
