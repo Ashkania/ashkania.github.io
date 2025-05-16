@@ -40,5 +40,6 @@ main {
 body {
     font-family: -apple-system, BlinkMacSystemFont,
     'Segoe UI', Ununtu, sans-serif;
-    color: #002244
+    color: #002244;
+    background-color:beige /* Light gray background */
 }
