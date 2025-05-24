@@ -1,3 +1,26 @@
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Ununtu, sans-serif;
+    color: #002244;
+    max-width: 40rem;
+    padding: 20px;
+    background-color:beige;
+    margin: 0 auto;
+}
+
+/* main {
+    max-width: 40rem;
+    background-color: #f0f0f0;
+    padding: 20px;
+} */
+
 h1 {
     color: blue;
     margin-bottom: 24px;
@@ -9,6 +32,10 @@ p {
     margin-bottom: 16px;
     font-size: 16px; */
     line-height: 150%;
+}
+
+.profile {
+    max-width: 100%;
 }
 
 /* .text {
@@ -26,20 +53,8 @@ p {
     color: orange;
 } */
 
-main {
-    background-color: #f0f0f0;
-    padding: 20px;
-}
-
 /* a {
     color: cyan;
     text-decoration: none;
     border: 1px solid currentColor;
 } */
-
-body {
-    font-family: -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Ununtu, sans-serif;
-    color: #002244;
-    background-color:beige /* Light gray background */
-}
