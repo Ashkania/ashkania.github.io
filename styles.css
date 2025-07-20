@@ -38,6 +38,35 @@ p {
     max-width: 100%;
 }
 
+/* .nested {
+    display: none;
+    margin-left: 20px;
+} */
+
+.nested {
+    display: none;
+    padding-top: 0;
+    padding-bottom: 0;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+}
+
+/* .nested.open {
+    padding-top: 5px;
+    padding-bottom: 5px;
+} */
+
+.toggle {
+    cursor: pointer;
+    user-select: none;
+    display: inline-block;
+    margin: 5px 0;
+}
+
+.arrow {
+    display: inline-block;
+    width: 1em;
+}
+
 /* .text {
     color: green;
     margin-bottom: 8px;
