@@ -1,2 +1,2 @@
-# HTML_Project_1
+# My portfolio
 Based on the Flask course in udemy
