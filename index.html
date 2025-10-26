@@ -20,10 +20,14 @@
         <img class="profile" src="images/profile.jpg" alt="Ashkan's profile picture" />
         <h1 class="title awesome" id="pagetitle">Ashkan Jafarzadeh</h1>
         <p class="text">
-            I am a PhD student in Physics at the University of
-            Texas at Dallas (UTD).I am working on developing a
-            software called AutoWISP, which is a photometry tool
-            for astronomical images.
+            <span style="display:block; text-align:justify;">
+                I am a Ph.D. student in Physics at the University of Texas at Dallas, where I specialize
+                in astronomical data analysis and software development. My research focuses on developing
+                AutoWISP, a Python-based photometry tool designed to extract and model high-precision
+                light curves from astronomical images. I combine my background in physics and observational
+                astronomy with modern data science techniques including statistical modeling, regression analysis,
+                and machine learning to study variable stars and automate photometric pipelines.
+            </span>
         </p>
         
         <p class="text">
@@ -33,49 +37,58 @@
             <ul class="main-list">
                 
                 
-                
                 <li>
                     <span class="toggle"><span class="arrow">►</span> <b>DATA SCIENCE</b></span>
                     <ul class="nested">
-                        <li>Analysis
+                        <li>Analysis & Modeling
                             <ul>
-                                <li><b>Scikit-learn</b></li> <!--2 courses in ML in udemy, from kaggle / projects from class, self projects in github--> 
+                                <li><b>Scikit-learn</b></li> <!--2 courses in ML in udemy, from kaggle / projects from class, self projects in github-->
+                                    <span style="color: green;">✔</span>
+                                    Certificate:
+                                    <a href="https://www.udemy.com/certificate/UC-d6527a43-d1ad-4465-9637-47c21335b72a/"
+                                        target="_blank">
+                                        Machine Learning in Python
+                                    </a>
                                 <li><b>PyTorch</b></li>
+                                    <span title="Pending">&#x231B;</span>
                                     Certificate:
                                     <a href="https://www.udemy.com/course/deeplearning_x"
                                         target="_blank">
                                         A deep understanding of deep learning
                                     </a>
-                                    <span title="Pending">&#x231B;</span>
                                 <li><b>NumPy</b></li>
+
+                                <!-- class ml project ended up in
+                                a paper (link) -->
                                 <!-- <li>TensorFlow</li> -->
                             </ul>
                         </li>
+                        <br/>
                         <li>EDA
                             <ul>
                                 <li><b>Pandas</b></li>
-                                    Certificate:</br>
+                                    <span title="Pending">&#x231B;</span>
+                                    Certificate:
                                     <a href="https://www.udemy.com/course/the-ultimate-pandas-bootcamp-advanced-python-data-analysis"
                                         target="_blank">
-                                        The Ultimate Pandas Bootcamp: Advanced Python Data Analysis
+                                        The Ultimate Pandas Bootcamp
                                     </a>
-                                    <span title="Pending">&#x231B;</span>
                                     <!-- <span style="color: green;">✔</span> -->
                                     <br/>
                                     Experience:
+                                    Completed 30+ Pandas problems on
                                     <a href="https://leetcode.com/u/ashkania/"
                                         target="_blank">
-                                        Many database related problems solved in LeetCode
+                                        LeetCode
                                     </a>
                                     <br/>
-                                    <br/>
                                 <li><b>Matplotlib, Seaborn</b></li>
+                                    <span title="Pending">&#x231B;</span>
                                     Certificate:</br>
                                     <a href="https://www.udemy.com/course/data-science-in-python-data-prep-eda"
                                         target="_blank">
                                         Python Data Science: Data Prep & EDA with Python
                                     </a>
-                                    <span title="Pending">&#x231B;</span>
                                     <!-- <span style="color: green;">✔</span> -->
                                     <br/>
                             </ul>
@@ -83,10 +96,32 @@
                         <br/>
                         <li>Projects
                             <ul>
-                                <li>Classification</li>
-                                <li>Clustering</li>
-                                <li>Photometric Modeling of 12 Contact Binary Stars (Paper in preparation)
-                                <!-- explain what you did -->
+                                <li>
+                                    <b>Regression:</b> Period–Luminosity Relationship for δ Scuti Stars Revisited
+                                    <a href="https://iopscience.iop.org/article/10.1088/1674-4527/ad1b0f/meta"
+                                    target="_blank">
+                                    (Paper)
+                                    </a><br/>
+                                    <small> Analyzed 2,375 δ Scuti variable stars to refine the period–luminosity
+                                        relationship across multiple pulsation modes.</small>
+                                </li>
+                                <li>
+                                    <b>Modeling:</b> Photometric Modeling of 12 Contact Binary Stars (Paper in preparation)<br/>
+                                    <small>Used parameter optimization to derive best-fit light curve models from time-series photometric data using AutoWISP.</small>
+                                </li>
+                                <li>
+                                    <b>Classification:</b> IBM HR Analytics Employee Attrition & Performance
+                                    <a href="https://github.com/Ashkania/DS_Projects/tree/main/1_Human_Resources"
+                                    target="_blank">
+                                    (Github)
+                                    </a>
+                                </li>
+                                <li>
+                                    <b>Clustering:</b> Credit Card Dataset for Clustering Clients
+                                    <a href="https://github.com/Ashkania/DS_Projects/tree/main/2_Marketing_Department"
+                                    target="_blank">
+                                    (Github)
+                                    </a>
                                 </li>
                             </ul>
                         </li>
@@ -122,10 +157,26 @@
 
                         <br/>
 
-                        <li>Other Python projects</li>  <!--combine with the following secion? // add hacker rank profile link-->
+                        <li>Specific projects under AutoWISP</li>  <!--combine with the following secion? // add hacker rank profile link-->
                             <ul>
-                                <li>Solving high order astrometry</li> <!--in another web page explain and show the result-->
-                                <li>Matching magnitude-flux in AutoWISP</li> <!--link to github repo with adding a readme to it (can I do that?)-->
+                                <li> <!--in another web page explain and show the result-->
+                                    <a href="https://github.com/kpenev/AutoWISP/blob/master/autowisp/astrometry/astrometry.py"
+                                    target="_blank">
+                                    Solving high order astrometry
+                                    </a>
+                                </li> 
+                                <li>  <!-- adding a readme to it (can I do that?)-->
+                                    <a href="https://github.com/kpenev/AutoWISP/blob/master/autowisp/astrometry/astrometry_max_mag_estimate.py"
+                                    target="_blank">
+                                    Matching magnitude-flux in AutoWISP
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://github.com/Ashkania/LC_Plotting"
+                                    target="_blank">
+                                    Plotting interesting light curves from AutoWISP results
+                                    </a>
+                                </li>
                             </ul>
                         <br/>
 
@@ -138,37 +189,41 @@
                     <ul class="nested">
                         <li>SQL
                             <ul>
-                                <li>PostgreSQL
+                                <li><b>PostgreSQL, SQLite, MySQL</b><br/>
                                     <span style="color: green;">✔</span>
                                     Certificate:
                                     <a href="https://www.udemy.com/certificate/UC-438a5ce4-f711-4e1f-8bde-e5c784013851/"
                                         target="_blank">
-                                        15 Days of SQL: The Complete SQL Masterclass 2025
+                                        The Complete SQL Masterclass 2025
                                     </a>
                                     <br/>
-                                    Projects:<br/>
-                                    - The course itself included tens of problems and two projects.<br/>
-                                    - I solved more than ... SQL problems in LeetCode. (link to my profile)<br/>
-                                    - I solve more than ... SQL problems in HackerRank. (link to my profile)<br/>
-                                </li>
-                                <br/>
-
-                                <li>SQLite / MySQL
-                                    Experience: Working with AutoWISP database in my PhD research
-                                    <a href="#" class="er-diagram-link">(ER Diagram)</a>
+                                    Experience & Projects:<br/>
+                                    - Completed two full SQL projects as part of the SQL Masterclass course.<br/>
+                                    - Completed 40+ SQL problems on
+                                        <a href="https://leetcode.com/u/ashkania/"
+                                        target="_blank">
+                                        LeetCode
+                                        </a> &
+                                        <a href="https://www.hackerrank.com/profile/sj_jafarzade"
+                                        target="_blank">
+                                        HackerRank.</a><br/>
+                                    - Worked with the AutoWISP database in PhD research
+                                    <a href="#" class="er-diagram-link">(AutoWISP ER Diagram)</a>
                                     <!-- Modal for ER Diagram -->
                                     <div id="erModal" class="modal">
                                         <span class="close">&times;</span>
                                         <img class="modal-content" id="erImage" src="images/ER_dia.png" alt="ER Diagram">
                                     </div>
+                                    <br/>
                                 </li>
+                                <br/>
                             </ul>
                         </li>
-                        <br/>
-
                         <li>NoSQL
                             <ul>
-                                <li>MongoDB</li>
+                                <li><b>MongoDB</b><br/>
+                                    Experience: Basic familiarity with data modeling and querying
+                                </li>
                             </ul>
                         </li>
                     </ul>
@@ -179,8 +234,8 @@
                 <li>
                     <span class="toggle"><span class="arrow">►</span> <b>VERSION CONTROL SYSTEM</b></span>
                     <ul class="nested">
-                        <li>Git</li>
-                        <li>GitHub
+                        <li><b>Git</b></li>
+                        <li><b>GitHub</b><br/>
                             <span style="color: green;">✔</span>
                             Certificate:
                             <a href="https://www.udemy.com/certificate/UC-635b39eb-f7ac-4fd5-8349-e1fb9c8dd243/"
@@ -189,7 +244,7 @@
                             </a>
                             <br/>
                             <span style="color: green;">✔</span>
-                            Project/Experience: In touch with Git/Github in contributing of developing AutoWISP software in PhD research
+                            Experience & Projects: In touch with Git/Github in contributing of developing AutoWISP software in PhD research
                             In addition to several personal projects available on GitHub
                         </li>
                     </ul>
@@ -201,12 +256,12 @@
                 <li>
                     <span class="toggle"><span class="arrow">►</span> <b>SOFTWARE</b></span>
                     <ul class="nested">
-                        <li>Linux
+                        <li><b>Linux</b><br/>
                             <span style="color: green;">✔</span>
                             Certificate:
                             <a href="https://www.udemy.com/certificate/UC-16752855-4e55-4a43-bcfb-2b212fb41fba/"
                                 target="_blank">
-                                Linux Mastery: Master the Linux Command Line in 11.5 Hours
+                                Linux Mastery: Master the Linux Command Line
                             </a>
                             <br/>
                             <span style="color: green;">✔</span>
@@ -214,9 +269,9 @@
                             I have been in touch with Linux since starting my PhD in 2021.
                             <br/>
                         </li>
-                        <li>VS Code / Jupyter Notebook
+                        <li><b>VS Code / Jupyter Notebook</b><br/>
                             <span style="color: green;">✔</span>
-                            Project/Experience: Almost all of my projects in Python are done in Jupyter Notebook and VS Code.
+                            Experience & Projects: Almost all of my projects in Python are done in Jupyter Notebook or VS Code.
                         </li>
                     </ul>
                 </li>
@@ -227,17 +282,17 @@
                 <li>
                     <span class="toggle"><span class="arrow">►</span> <b>WEB DEVELOPMENT</b></span>
                     <ul class="nested">
-                        <li>HTML / css</li>
-                        <li>Flask</li>
+                        <li><b>HTML / CSS</b></li>
+                        <li><b>Flask</b></li>
                             <span title="Pending">&#x231B;</span>
                             Certificate:
                             <a href="https://www.udemy.com/course/web-developer-bootcamp-flask-python"
                                 target="_blank">
-                                Web Developer Bootcamp with Flask and Python in 2024
+                                Web Developer Bootcamp with Flask and Python
                             </a>
                         <br/>
                         <span style="color: green;">✔</span>
-                        Project: You are seening it!
+                        Project: You are seeing it!
                     </ul>
                 </li>
                 <br/>
@@ -255,9 +310,6 @@
                     <br/> -->
 
             </ul>
-            <br/>
-
-
 
 
             Soft skills:
@@ -266,35 +318,38 @@
                         <span class="toggle"><span class="arrow">►</span> <b>Teamwork</b></span>
                         <ul class="nested">
                             <li>As a PhD student, I have been working with my advisor and other students
-                            (both graduate and part time undergrads) in our research group.
+                            (both graduate and part time undergrads) in our research group since 2021.
                             </li>
                         </ul>
                     </li>
                     <li>
                         <span class="toggle"><span class="arrow">►</span> <b>Problem Solving</b></span>
                         <ul class="nested">
-                            <li>Developing the photometry project called AutoWISP, included a lot of code debugging.
+                            <li>Contributing to the development of the photometry project called AutoWISP,
+                                which included a lot of enhancement and code debugging.
                             </li>
                         </ul>
                     </li>
                     <li>
-                        <span class="toggle"><span class="arrow">►</span> <b>Other (to be organized)</b></span>
+                        <span class="toggle"><span class="arrow">►</span> <b>Other (Experience, awards, and more)</b></span>
                         <ul class="nested">
-                            <li>IOTA project manager / editorial membership / TA (# of students) / Lecturer (Pirouzan)
-                            ML,DL template (link)/ astrometry project with description / class ml project ended up in
-                            a paper (link) / scholarship / hackerrank (and certificates) / leetcode / courses from kaggle
-                            </li>
+                            <li>Teaching Assistant for Courses Mechanics, College Physics, and Mechanics Physics Labs at UTD (2021-Now)</li>
+                            <li>Margie Renfrow Student Support Fund Award (2024)</li>
+                            <li>Hack-a-Thon participant in American Airlines Operations Research & Advanced Analytics (2024)</li>
+                            <li>Judge, Plano ISD Science Fair (2023)</li>
+                            <!-- IOTA project manager / editorial membership / TA (# of students) / Lecturer (Pirouzan)
+                                ML,DL template (link) / scholarship / courses from kaggle -->
                         </ul>
                     </li>
                 </ul>
 
         </p>
 
-        <p class="test">This is the link to my 
+        <!-- <p class="test">This is the link to my 
             <a href="https://github.com/Ashkania"
             target="_blank">
             GitHub page 
             </a>
-        </p>
+        </p> -->
     </body>
 </html>
