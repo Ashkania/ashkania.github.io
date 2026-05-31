@@ -1,356 +1,142 @@
 <!DOCTYPE html>
-
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <meta 
-            name="viewport"
-            content="width=devide-width, user-scalable=1.0,
-            initial-scale=1, maximum-scale=1.0"
-        />
-        <title>Ashkan Jafarzadeh</title>
-        <link rel="stylesheet" href="styles.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Ashkan Jafarzadeh | Physics PhD & Data Scientist</title>
+        <link rel="stylesheet" href="styles.css" />
         <script src="script.js" defer></script>
     </head>
     <body>
+        <div class="page-shell">
+            <header class="site-header">
+                <div class="hero">
+                    <img class="profile" src="images/profile.jpg" alt="Ashkan Jafarzadeh profile picture" />
+                    <div class="hero-copy">
+                        <p class="eyebrow">Ph.D. student · Physics · Astronomy · Data Science</p>
+                        <h1>Ashkan Jafarzadeh</h1>
+                        <p class="intro">
+                            I specialize in astronomical data analysis and scientific software development.
+                            My research focuses on developing AutoWISP, a photometry tool designed to extract high quality light curves from astronomical images.
+                        </p>
+                    </div>
+                </div>
+            </header>
 
-        <header></header>
-        <main></main>
-        <footer></footer>
-        <img class="profile" src="images/profile.jpg" alt="Ashkan's profile picture" />
-        <h1 class="title awesome" id="pagetitle">Ashkan Jafarzadeh</h1>
-        <p class="text">
-            <span style="display:block; text-align:justify;">
-                I am a Ph.D. student in Physics at the University of Texas at Dallas, where I specialize
-                in astronomical data analysis and software development. My research focuses on developing
-                AutoWISP, a Python-based photometry tool designed to extract and model high-precision
-                light curves from astronomical images. I combine my background in physics and observational
-                astronomy with modern data science techniques including statistical modeling, regression analysis,
-                and machine learning to study variable stars and automate photometric pipelines.
-            </span>
-        </p>
-        
-        <p class="text">
+            <main>
+                <section class="summary card">
+                    <h2>Professional profile</h2>
+                    <p>
+                        I combine physics, observational astronomy, and modern data science methods to automate photometric
+                        pipelines and deliver reliable scientific results. My experience includes regression and classification modeling,
+                        software development for astronomy, and collaborative research in Linux-based
+                        environments.
+                    </p>
+                </section>
 
-            Technical skills (expandable):
+                <section class="card skills-section">
+                    <div class="section-header">
+                        <h2>Technical skills</h2>
+                        <p>Click each category to expand details.</p>
+                    </div>
 
-            <ul class="main-list">
-                
-                
-                <li>
-                    <span class="toggle"><span class="arrow">►</span> <b>DATA SCIENCE</b></span>
-                    <ul class="nested">
-                        <li>Analysis & Modeling
-                            <ul>
-                                <li><b>Scikit-learn</b></li> <!--2 courses in ML in udemy, from kaggle / projects from class, self projects in github-->
-                                    <span style="color: green;">✔</span>
-                                    Certificate:
-                                    <a href="https://www.udemy.com/certificate/UC-d6527a43-d1ad-4465-9637-47c21335b72a/"
-                                        target="_blank">
-                                        Machine Learning in Python
-                                    </a>
-                                <li><b>PyTorch</b></li>
-                                    <span title="Pending">&#x231B;</span>
-                                    Certificate:
-                                    <a href="https://www.udemy.com/course/deeplearning_x"
-                                        target="_blank">
-                                        A deep understanding of deep learning
-                                    </a>
-                                <li><b>NumPy</b></li>
+                    <div class="skills-grid">
+                        <article class="skill-card">
+                            <button class="toggle"><span class="arrow">►</span> DATA SCIENCE</button>
+                            <div class="nested">
+                                <h3>Core tools</h3>
+                                <ul>
+                                    <li><strong>Scikit-learn</strong> · regression, classification, clustering</li>
+                                    <li><strong>PyTorch</strong> · deep learning and model development</li>
+                                    <li><strong>NumPy</strong> · numerical computing and vectorized analysis</li>
+                                </ul>
+                                <h3>Visualization & EDA</h3>
+                                <ul>
+                                    <li><strong>Pandas</strong> · data preparation and exploratory analytics</li>
+                                    <li><strong>Matplotlib / Seaborn</strong> · plotting and scientific visualization</li>
+                                </ul>
+                                <h3>Selected projects</h3>
+                                <ul>
+                                    <li><strong>Regression:</strong> Period–Luminosity Relationship for δ Scuti Stars Revisited (<a href="https://iopscience.iop.org/article/10.1088/1674-4527/ad1b0f/meta" target="_blank">paper</a>)</li>
+                                    <li><strong>Modeling:</strong> Photometric modeling of contact binary stars with AutoWISP</li>
+                                    <li><strong>Classification:</strong> Predicting Irrigation Need (Kaggle Playground Series Competition) (<a href="https://github.com/Ashkania/DS_Projects/tree/main/Kaggle/Classification/1_irrigation_playground-series-s6e4" target="_blank">GitHub</a>)</li>
+                                </ul>
+                            </div>
+                        </article>
 
-                                <!-- class ml project ended up in
-                                a paper (link) -->
-                                <!-- <li>TensorFlow</li> -->
-                            </ul>
-                        </li>
-                        <br/>
-                        <li>EDA
-                            <ul>
-                                <li><b>Pandas</b></li>
-                                    <span title="Pending">&#x231B;</span>
-                                    Certificate:
-                                    <a href="https://www.udemy.com/course/the-ultimate-pandas-bootcamp-advanced-python-data-analysis"
-                                        target="_blank">
-                                        The Ultimate Pandas Bootcamp
-                                    </a>
-                                    <!-- <span style="color: green;">✔</span> -->
-                                    <br/>
-                                    Experience:
-                                    Completed 30+ Pandas problems on
-                                    <a href="https://leetcode.com/u/ashkania/"
-                                        target="_blank">
-                                        LeetCode
-                                    </a>
-                                    <br/>
-                                <li><b>Matplotlib, Seaborn</b></li>
-                                    <span style="color: green;">✔</span>
-                                    Certificate:</br>
-                                    <a href="https://www.udemy.com/certificate/UC-5fd89bc1-9e96-4e17-b537-22fc51770199/"
-                                        target="_blank">
-                                        Python Data Science: Data Prep & EDA with Python
-                                    </a>
-                                    <!-- <span style="color: green;">✔</span> -->
-                                    <br/>
-                            </ul>
-                        </li>
-                        <br/>
-                        <li>Projects
-                            <ul>
-                                <li>
-                                    <b>Regression:</b> Period–Luminosity Relationship for δ Scuti Stars Revisited
-                                    <a href="https://iopscience.iop.org/article/10.1088/1674-4527/ad1b0f/meta"
-                                    target="_blank">
-                                    (Paper)
-                                    </a><br/>
-                                    <small> Analyzed 2,375 δ Scuti variable stars to refine the period–luminosity
-                                        relationship across multiple pulsation modes.</small>
-                                </li>
-                                <li>
-                                    <b>Modeling:</b> Photometric Modeling of 12 Contact Binary Stars (Paper in preparation)<br/>
-                                    <small>Used parameter optimization to derive best-fit light curve models from time-series photometric data using AutoWISP.</small>
-                                </li>
-                                <li>
-                                    <b>Classification:</b> IBM HR Analytics Employee Attrition & Performance
-                                    <a href="https://github.com/Ashkania/DS_Projects/tree/main/1_Human_Resources"
-                                    target="_blank">
-                                    (Github)
-                                    </a>
-                                </li>
-                                <li>
-                                    <b>Clustering:</b> Credit Card Dataset for Clustering Clients
-                                    <a href="https://github.com/Ashkania/DS_Projects/tree/main/2_Marketing_Department"
-                                    target="_blank">
-                                    (Github)
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-                <br/>
+                        <article class="skill-card">
+                            <button class="toggle"><span class="arrow">►</span> SOFTWARE DEVELOPMENT</button>
+                            <div class="nested">
+                                <ul>
+                                    <li><strong>AstroWISP</strong> · high-precision photometry from wide-field color images (<a href="https://iopscience.iop.org/article/10.3847/1538-3881/adf640/meta" target="_blank">paper</a>)</li>
+                                    <li><strong>AutoWISP</strong> · automated photometry pipeline for astronomical images (<a href="https://iopscience.iop.org/article/10.3847/1538-3881/adfe6c/meta" target="_blank">paper</a>)</li>
+                                    <li><strong>PANOPTES / AutoWISP BUI</strong> · interface and pipeline integration (paper in preparation)</li>
+                                </ul>
+                                <h3>Representative work</h3>
+                                <ul>
+                                    <li><a href="https://github.com/kpenev/AutoWISP/blob/master/autowisp/astrometry/astrometry.py" target="_blank">High-order astrometry solver</a></li>
+                                    <li><a href="https://github.com/kpenev/AutoWISP/blob/master/autowisp/astrometry/astrometry_max_mag_estimate.py" target="_blank">Magnitude–flux matching</a></li>
+                                    <li><a href="https://github.com/Ashkania/LC_Plotting" target="_blank">Light curve visualization with AutoWISP</a></li>
+                                </ul>
+                            </div>
+                        </article>
 
+                        <article class="skill-card">
+                            <button class="toggle"><span class="arrow">►</span> DATABASE</button>
+                            <div class="nested">
+                                <ul>
+                                    <li><strong>PostgreSQL, SQLite, MySQL</strong> · relational database design and query optimization</li>
+                                    <li><strong>MongoDB</strong> · document-oriented modeling and exploratory querying (Basics)</li>
+                                </ul>
+                                <h3>Highlights</h3>
+                                <ul>
+                                    <li>Completed SQL Masterclass projects and 40+ problems on <a href="https://leetcode.com/u/ashkania/" target="_blank">LeetCode</a> and <a href="https://www.hackerrank.com/profile/sj_jafarzade" target="_blank">HackerRank</a></li>
+                                    <li>Experience in working with AutoWISP database in PhD research</li>
+                                    <li><a href="#" class="er-diagram-link">View AutoWISP ER diagram</a></li>
+                                </ul>
+                            </div>
+                        </article>
 
-                <li>
-                    <span class="toggle"><span class="arrow">►</span> <b>SOFTWARE DEVELOPMENT</b></span>
-                    <ul class="nested">
-                        <li>AstroWISP</li>
-                            Paper:</br>
-                            <a href="https://iopscience.iop.org/article/10.3847/1538-3881/adf640/meta"
-                                target="_blank">
-                                Tools for High-precision Photometry from Wide-field Color Images
-                            </a>
-                            <br/>
-                            <br/>
+                        <article class="skill-card">
+                            <button class="toggle"><span class="arrow">►</span> TOOLS & INFRASTRUCTURE</button>
+                            <div class="nested">
+                                <ul>
+                                    <li><strong>Git / GitHub</strong> · version control, collaboration, pull request workflow</li>
+                                    <li><strong>Linux</strong> · research computing, Bash, and environment management</li>
+                                    <li><strong>VS Code / Jupyter</strong> · development and interactive analysis</li>
+                                </ul>
+                            </div>
+                        </article>
+                    </div>
+                </section>
 
-                        <li>AutoWISP</li>
-                            Paper:</br>
-                            <a href="https://iopscience.iop.org/article/10.3847/1538-3881/adfe6c/meta"
-                                target="_blank">
-                                AutoWISP: Automated Processing of Wide-field Color Images
-                            </a>
-                            <br/>
-                            <br/>
+                <section class="card soft-skills">
+                    <h2>Soft skills</h2>
+                    <div class="soft-grid">
+                        <article>
+                            <h3>Teamwork</h3>
+                            <p>Collaborating with my advisor, graduate peers, and undergraduate researchers since 2021.</p>
+                        </article>
+                        <article>
+                            <h3>Problem solving</h3>
+                            <p>Developing and debugging AutoWISP while improving photometry pipelines under real research constraints.</p>
+                        </article>
+                        <article>
+                            <h3>Communication</h3>
+                            <p>Teaching assistant experience in mechanics and physics labs, plus judging academic science fairs.</p>
+                        </article>
+                    </div>
+                </section>
+            </main>
 
-                        <li>Project PANOPTES / AutoWISP BUI (Paper in preparation)
-                            <!-- ... -->
-                        </li>
+            <footer class="site-footer">
+                <p>Portfolio built with HTML, CSS, and JavaScript · Based on research and software development work in astronomy.</p>
+            </footer>
+        </div>
 
-                        <br/>
-
-                        <li>Specific projects under AutoWISP</li>  <!--combine with the following secion? // add hacker rank profile link-->
-                            <ul>
-                                <li> <!--in another web page explain and show the result-->
-                                    <a href="https://github.com/kpenev/AutoWISP/blob/master/autowisp/astrometry/astrometry.py"
-                                    target="_blank">
-                                    Solving high order astrometry
-                                    </a>
-                                </li> 
-                                <li>  <!-- adding a readme to it (can I do that?)-->
-                                    <a href="https://github.com/kpenev/AutoWISP/blob/master/autowisp/astrometry/astrometry_max_mag_estimate.py"
-                                    target="_blank">
-                                    Matching magnitude-flux in AutoWISP
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://github.com/Ashkania/LC_Plotting"
-                                    target="_blank">
-                                    Plotting interesting light curves from AutoWISP results
-                                    </a>
-                                </li>
-                            </ul>
-                        <br/>
-
-                    </ul>
-                </li>
-                <br/>
-
-                <li>
-                    <span class="toggle"><span class="arrow">►</span> <b>DATABASE</b></span>
-                    <ul class="nested">
-                        <li>SQL
-                            <ul>
-                                <li><b>PostgreSQL, SQLite, MySQL</b><br/>
-                                    <span style="color: green;">✔</span>
-                                    Certificate:
-                                    <a href="https://www.udemy.com/certificate/UC-438a5ce4-f711-4e1f-8bde-e5c784013851/"
-                                        target="_blank">
-                                        The Complete SQL Masterclass 2025
-                                    </a>
-                                    <br/>
-                                    <br/>
-                                    Experience & Projects:<br/>
-                                    <ul>
-                                        <li>Completed two full SQL projects as part of the SQL Masterclass course.</li>
-                                        <li>Completed 40+ SQL problems on
-                                            <a href="https://leetcode.com/u/ashkania/" target="_blank">LeetCode</a>
-                                            &amp;
-                                            <a href="https://www.hackerrank.com/profile/sj_jafarzade" target="_blank">HackerRank</a>.
-                                        </li>
-                                        <li>Worked with the AutoWISP database in PhD research
-                                            <a href="#" class="er-diagram-link">(AutoWISP ER Diagram)</a>
-                                        </li>
-                                    </ul>
-                                    <!-- Modal for ER Diagram -->
-                                    <div id="erModal" class="modal">
-                                        <span class="close">&times;</span>
-                                        <img class="modal-content" id="erImage" src="images/ER_dia.png" alt="ER Diagram">
-                                    </div>
-                                    <br/>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>NoSQL
-                            <ul>
-                                <li><b>MongoDB</b><br/>
-                                    Experience:<br/>
-                                    Basic familiarity with data modeling and querying
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-
-
-                <br/>
-                <li>
-                    <span class="toggle"><span class="arrow">►</span> <b>VERSION CONTROL SYSTEM</b></span>
-                    <ul class="nested">
-                        <li><b>Git</b></li>
-                        <li><b>GitHub</b><br/>
-                            <span style="color: green;">✔</span>
-                            Certificate:
-                            <a href="https://www.udemy.com/certificate/UC-635b39eb-f7ac-4fd5-8349-e1fb9c8dd243/"
-                                target="_blank">
-                                The Git & Github Bootcamp
-                            </a>
-                            <br/>
-                            <span style="color: green;">✔</span>
-                            Experience & Projects: In touch with Git/Github in contributing of developing AutoWISP software in PhD research
-                            In addition to several personal projects available on GitHub
-                        </li>
-                    </ul>
-                </li>
-
-
-
-                <br/>
-                <li>
-                    <span class="toggle"><span class="arrow">►</span> <b>SOFTWARE</b></span>
-                    <ul class="nested">
-                        <li><b>Linux</b><br/>
-                            <span style="color: green;">✔</span>
-                            Certificate:
-                            <a href="https://www.udemy.com/certificate/UC-16752855-4e55-4a43-bcfb-2b212fb41fba/"
-                                target="_blank">
-                                Linux Mastery: Master the Linux Command Line
-                            </a>
-                            <br/>
-                            <span style="color: green;">✔</span>
-                            Project/Experience: As developing AutoWISP photometry software in PhD research happened in Linux environment,
-                            I have been in touch with Linux since starting my PhD in 2021.
-                            <br/>
-                        </li>
-                        <li><b>VS Code / Jupyter Notebook</b><br/>
-                            <span style="color: green;">✔</span>
-                            Experience & Projects: Almost all of my projects in Python are done in Jupyter Notebook or VS Code.
-                        </li>
-                    </ul>
-                </li>
-                <br/>
-
-
-
-                <li>
-                    <span class="toggle"><span class="arrow">►</span> <b>WEB DEVELOPMENT</b></span>
-                    <ul class="nested">
-                        <li><b>HTML / CSS</b></li>
-                        <li><b>Flask</b></li>
-                            <span title="Pending">&#x231B;</span>
-                            Certificate:
-                            <a href="https://www.udemy.com/course/web-developer-bootcamp-flask-python"
-                                target="_blank">
-                                Web Developer Bootcamp with Flask and Python
-                            </a>
-                        <br/>
-                        <span style="color: green;">✔</span>
-                        Project: You are seeing it!
-                    </ul>
-                </li>
-                <br/>
-                        <!-- <li>Django</li>
-                        <span title="Pending">&#x231B;</span>
-                        Certificate: 
-                        <a href="https://www.udemy.com/course/python-django-the-practical-guide"
-                            target="_blank">
-                            Python Django - The Practical Guide
-                        </a>
-                        <br/>
-                        Experience: [Research (BUI)] -->
-
-                    <!-- </ul>
-                    <br/> -->
-
-            </ul>
-
-
-            Soft skills:
-                <ul class="main-list">
-                    <li>
-                        <span class="toggle"><span class="arrow">►</span> <b>Teamwork</b></span>
-                        <ul class="nested">
-                            <li>As a PhD student, I have been working with my advisor and other students
-                            (both graduate and part time undergrads) in our research group since 2021.
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <span class="toggle"><span class="arrow">►</span> <b>Problem Solving</b></span>
-                        <ul class="nested">
-                            <li>Contributing to the development of the photometry project called AutoWISP,
-                                which included a lot of enhancement and code debugging.
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <span class="toggle"><span class="arrow">►</span> <b>Other (Experience, awards, and more)</b></span>
-                        <ul class="nested">
-                            <li>Teaching Assistant for Courses Mechanics, College Physics, and Mechanics Physics Labs at UTD (2021-Now)</li>
-                            <li>Margie Renfrow Student Support Fund Award (2024)</li>
-                            <li>Hack-a-Thon participant in American Airlines Operations Research & Advanced Analytics (2024)</li>
-                            <li>Judge, Plano ISD Science Fair (2023)</li>
-                            <!-- IOTA project manager / editorial membership / TA (# of students) / Lecturer (Pirouzan)
-                                ML,DL template (link) / scholarship / courses from kaggle -->
-                        </ul>
-                    </li>
-                </ul>
-
-        </p>
-
-        <!-- <p class="test">This is the link to my 
-            <a href="https://github.com/Ashkania"
-            target="_blank">
-            GitHub page 
-            </a>
-        </p> -->
+        <div id="erModal" class="modal">
+            <span class="close">×</span>
+            <img class="modal-content" id="erImage" src="images/ER_dia.png" alt="ER Diagram">
+        </div>
     </body>
 </html>
